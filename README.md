@@ -44,8 +44,8 @@ Contraseña: 1234
 Estas credenciales son únicamente para probar la aplicación académica.
 
 ## Archivos principales
-- inicio_sesion.html
-- inicio_sesion.js
+- inicio-sesion.html
+- inicio-sesion.js
 - menu.html
 - menu.js
 - usuarios.html
