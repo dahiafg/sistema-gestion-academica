@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios - Gilberto Cherry Mejía</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Gestión de usuarios</h1>
+
+        <p class="subtitulo">
+            Institución Educativa Gilberto Cherry Mejía
+        </p>
+
+        <div class="tarjeta">
+
+            <h3>Registrar usuario</h3>
+
+            <form id="formularioUsuario">
+
+                <label for="nombre">
+                    Nombre del usuario:
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    required
+                >
+
+                <label for="rol">
+                    Rol:
+                </label>
+
+                <select id="rol" required>
+
+                    <option value="">
+                        Selecciona un rol
+                    </option>
+
+                    <option value="Estudiante">
+                        Estudiante
+                    </option>
+
+                    <option value="Profesor">
+                        Profesor
+                    </option>
+
+                    <option value="Administrador">
+                        Administrador
+                    </option>
+
+                </select>
+
+                <button type="submit">
+                    Agregar usuario
+                </button>
+
+            </form>
+
+            <p id="mensajeUsuario"></p>
+
+        </div>
+
+
+        <div class="tarjeta">
+
+            <h3>Usuarios registrados</h3>
+
+            <div id="listaUsuarios"></div>
+
+        </div>
+
+
+        <button id="volverMenu" class="boton-secundario">
+            Volver al menú
+        </button>
+
+    </div>
+
+    <script src="usuarios.js"></script>
+
+</body>
+</html>
